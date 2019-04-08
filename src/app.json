@@ -44,6 +44,11 @@
       "pagePath": "pages/logs/main",
       "icon": "static/tabs/orders.png",
       "activeIcon": "static/tabs/orders-active.png"
+    }, {
+      "name": "mine",
+      "pagePath": "pages/mi/main",
+      "icon": "static/tabs/orders.png",
+      "activeIcon": "static/tabs/orders-active.png"
     }],
     "position": "bottom"
   }

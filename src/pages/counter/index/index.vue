@@ -45,12 +45,6 @@
 </i-grid>
     <i-panel title="吃货推荐">
       <view class="top-padding">
-
-        <view v-for="item in shops" :key='item' class="top-padding">
-          <i-card title="item.name" extra="item.content" thumb="cloud://edux-3d5095.6564-edux-3d5095/店铺 (1).png">
-        <view slot="content">{{item.introduction}}</view>
-        <view slot="footer">{{item.adress}}</view>
-      </i-card>
       <i-card title="良品铺子" extra="零食" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
         <view slot="content">好多不错的零食</view>
         <view slot="footer">后街1-22</view>
@@ -87,7 +81,6 @@ import card from '@/components/card'
 export default {
   data () {
     return {
-      shop:[],
       motto: 'Hello miniprograme',
       userInfo: {
         nickName: 'mpvue',
@@ -114,14 +107,9 @@ export default {
       // throw {message: 'custom test'}
     }
   },
+
   created () {
-    const db = wx.cloud.database({ env: 'edux-3d5095' })
-    db.collection('shop').get().then(
-      res => {
-        console.log(res.data)
-        this.shops = res.data
-      }
-    )
+    // let app = getApp()
   }
 }
 </script>
