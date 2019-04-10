@@ -46,7 +46,7 @@
       "activeIcon": "static/tabs/orders-active.png"
     }, {
       "name": "mine",
-      "pagePath": "pages/mi/main",
+      "pagePath": "pages/mine/main",
       "icon": "static/tabs/orders.png",
       "activeIcon": "static/tabs/orders-active.png"
     }],
