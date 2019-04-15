@@ -12,7 +12,7 @@
   :polyline="polyline"
   @regionchange="regionchange"
   show-location
-  style="width: 100%; height: 100%;"
+  style="width: 100%; height: 100vh;"
 ></map>
   </div>
 </template>
@@ -26,7 +26,7 @@ export default {
   data () {
     return {
       markers: [{
-      iconPath: '/resources/others.png',
+      iconPath: '/static/images/others.png',
       id: 0,
       latitude: 30.571331,
       longitude: 114.347997,
