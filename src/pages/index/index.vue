@@ -1,49 +1,61 @@
 <template>
   <div @click="clickHandle">
     <i-notice-bar icon="systemprompt" loop>
-    2019年4月1日举行吃货节
+    今日菜系有重大更新
     </i-notice-bar>
     <i-grid i-class="no-border">
     <i-grid-item i-class="no-border">
         <i-grid-icon>
-            <image src="/static/grid/1.png" />
+            <image src="/static/grid/7.png" />
         </i-grid-icon>
-        <i-grid-label>西点</i-grid-label>
+        <i-grid-label>川菜</i-grid-label>
     </i-grid-item>
     <i-grid-item i-class="no-border">
         <i-grid-icon>
-            <image src="/static/grid/2.png" />
+            <image src="/static/grid/8.png" />
         </i-grid-icon>
-        <i-grid-label>主食</i-grid-label>
+        <i-grid-label>粤菜</i-grid-label>
     </i-grid-item>
     <i-grid-item i-class="no-border">
         <i-grid-icon>
-            <image src="/static/grid/3.png" />
+            <image src="/static/grid/9.png" />
         </i-grid-icon>
-        <i-grid-label>外卖</i-grid-label>
+        <i-grid-label>鲁菜</i-grid-label>
     </i-grid-item>
-</i-grid>
     <i-grid i-class="no-border">
     <i-grid-item i-class="no-border">
         <i-grid-icon>
-            <image src="/static/grid/4.png" />
+            <image src="/static/grid/10.png" />
         </i-grid-icon>
-        <i-grid-label>饮品</i-grid-label>
+        <i-grid-label>苏菜</i-grid-label>
+    </i-grid-item>
+    </i-grid>
+    <i-grid-item i-class="no-border">
+        <i-grid-icon>
+            <image src="/static/grid/11.png" />
+        </i-grid-icon>
+        <i-grid-label>浙菜</i-grid-label>
     </i-grid-item>
     <i-grid-item i-class="no-border">
         <i-grid-icon>
-            <image src="/static/grid/5.png" />
+            <image src="/static/grid/12.png" />
         </i-grid-icon>
-        <i-grid-label>零食</i-grid-label>
+        <i-grid-label>闽菜</i-grid-label>
     </i-grid-item>
     <i-grid-item i-class="no-border">
         <i-grid-icon>
-            <image src="/static/grid/6.png" />
+            <image src="/static/grid/13.png" />
         </i-grid-icon>
-        <i-grid-label>面食</i-grid-label>
+        <i-grid-label>安徽</i-grid-label>
+    </i-grid-item>
+    <i-grid-item i-class="no-border">
+        <i-grid-icon>
+            <image src="/static/grid/14.png" />
+        </i-grid-icon>
+        <i-grid-label>湖南</i-grid-label>
     </i-grid-item>
 </i-grid>
-    <i-panel title="吃货推荐">
+    <i-panel title="">
       <view class="top-padding">
 
       <view v-for="item in shops" :key='item' class="top-padding">
