@@ -1,65 +1,66 @@
 <template>
   <div @click="clickHandle">
     <i-notice-bar icon="systemprompt" loop>
-    今日菜系有重大更新
+    今日菜谱有重大更新，谢谢光临！
     </i-notice-bar>
     <i-grid i-class="no-border">
     <i-grid-item i-class="no-border">
         <i-grid-icon>
-            <image src="/static/grid/7.png" />
+            <image src="/static/grid/1.png" />
         </i-grid-icon>
         <i-grid-label>川菜</i-grid-label>
     </i-grid-item>
     <i-grid-item i-class="no-border">
         <i-grid-icon>
-            <image src="/static/grid/8.png" />
+            <image src="/static/grid/2.png" />
         </i-grid-icon>
         <i-grid-label>粤菜</i-grid-label>
     </i-grid-item>
     <i-grid-item i-class="no-border">
         <i-grid-icon>
-            <image src="/static/grid/9.png" />
+            <image src="/static/grid/3.png" />
         </i-grid-icon>
         <i-grid-label>鲁菜</i-grid-label>
     </i-grid-item>
-    <i-grid i-class="no-border">
     <i-grid-item i-class="no-border">
         <i-grid-icon>
-            <image src="/static/grid/10.png" />
+            <image src="/static/grid/4.png" />
         </i-grid-icon>
         <i-grid-label>苏菜</i-grid-label>
     </i-grid-item>
     </i-grid>
+    <i-grid>
+    <i-row>
     <i-grid-item i-class="no-border">
         <i-grid-icon>
-            <image src="/static/grid/11.png" />
+            <image src="/static/grid/5.png" />
         </i-grid-icon>
         <i-grid-label>浙菜</i-grid-label>
     </i-grid-item>
     <i-grid-item i-class="no-border">
         <i-grid-icon>
-            <image src="/static/grid/12.png" />
+            <image src="/static/grid/6.png" />
         </i-grid-icon>
         <i-grid-label>闽菜</i-grid-label>
     </i-grid-item>
     <i-grid-item i-class="no-border">
         <i-grid-icon>
-            <image src="/static/grid/13.png" />
+            <image src="/static/grid/7.png" />
         </i-grid-icon>
-        <i-grid-label>安徽</i-grid-label>
+        <i-grid-label>徽菜</i-grid-label>
     </i-grid-item>
     <i-grid-item i-class="no-border">
         <i-grid-icon>
-            <image src="/static/grid/14.png" />
+            <image src="/static/grid/8.png" />
         </i-grid-icon>
-        <i-grid-label>湖南</i-grid-label>
+        <i-grid-label>湘菜</i-grid-label>
     </i-grid-item>
+    </i-row>
 </i-grid>
-    <i-panel title="">
+    <i-panel title="最近更新">
       <view class="top-padding">
-
       <view v-for="item in shops" :key='item' class="top-padding">
-      <i-card title="item.name" extra="item.sce" thumb="cloud://edux-3d5095.6564-edux-3d5095/店铺 (1).png">
+      <i-card title="{{item.name}}" extra="{{item.sce}}" thumb="cloud://edux-3d5095.6564-edux-3d5095/店铺 (1).png">
         <view slot="content">{{item.introduction}}</view>
         <view slot="footer">{{item.address}}</view>
       </i-card>
