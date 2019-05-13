@@ -1,7 +1,7 @@
 <template>
   <div @click="clickHandle">
     <i-notice-bar icon="systemprompt" loop>
-    今日菜谱有重大更新，谢谢光临！
+    今日菜谱!
     </i-notice-bar>
     <i-grid i-class="no-border">
     <i-grid-item i-class="no-border">
@@ -29,7 +29,7 @@
         <i-grid-label>苏菜</i-grid-label>
     </i-grid-item>
     </i-grid>
-    <i-grid>
+    <i-grid i-class="no-border">
     <i-row>
     <i-grid-item i-class="no-border">
         <i-grid-icon>
@@ -60,7 +60,7 @@
     <i-panel title="最近更新">
       <view class="top-padding">
       <view v-for="item in shops" :key='item' class="top-padding">
-      <i-card title="item.name" extra="item.sce" thumb="cloud://edux-3d5095.6564-edux-3d5095/店铺 (1).png">
+      <i-card :title="item.name" :extra="item.sce" thumb="cloud://edux-3d5095.6564-edux-3d5095/店铺 (1).png">
         <view slot="content">{{item.introduction}}</view>
         <view slot="footer">{{item.address}}</view>
       </i-card>
