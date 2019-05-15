@@ -4,7 +4,7 @@
     今日菜谱!
     </i-notice-bar>
     <i-grid i-class="no-border">
-    <i-grid-item i-class="no-border">
+    <i-grid-item @click="goList(item.url)" i-class="no-border">
         <i-grid-icon>
             <image src="/static/grid/1.png" />
         </i-grid-icon>
@@ -76,6 +76,9 @@ import card from '@/components/card'
 export default {
   data () {
     return {
+      grids:[
+        {type:'川菜',img:'/static/grids/1.png',"url":'../list/main?type=1'},
+      ],
       shops:[],
       motto: 'Hello miniprograme',
       userInfo: {
@@ -90,6 +93,13 @@ export default {
   },
 
   methods: {
+     goList (url) {
+      mpvue.navigateTo({ url })
+    },
+    goType (type) {
+      let url = '../list/main?type=' + type
+      mpvue.navigateTo({ url })
+    },
     bindViewTap () {
       const url = '../logs/main'
       if (mpvuePlatform === 'wx') {
