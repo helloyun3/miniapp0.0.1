@@ -1,8 +1,8 @@
 [
-    {"id":1,"name":"梅菜扣肉","address":"8步/大概90分钟","remark":"午餐肉、味道好、人气高","img":"/static/grid/1.png","type":1,"latitude": 30.576413,"longitude": 114.339437},
-    {"id":2,"name":"糖醋排骨","address":"3步/大概30分钟","remark":"润肺、养肾","img":"/static/grid/1.png","type":2,"latitude": 30.579604,"longitude": 114.338552},
-    {"id":3,"name":"香煎茄汁","address":"7步/大概10分钟","remark":"抗衰老、软化血管、防癌","img":"/static/grid/1.png","type":3,"latitude": 30.573291,"longitude": 114.333172},
-    {"id":4,"name":"佛跳墙","address":"4步/大概数小时","remark":"排毒、降三高、养心、抗衰老、补血、防癌、健脾","img":"/static/grid/1.png","type":4,"latitude": 30.575157,"longitude": 114.332303},
-    {"id":5,"name":"白切鸡","address":"11步/大概30分钟","remark":"助消化、骨质疏松","img":"/static/grid/1.png","type":5,"latitude": 30.579535,"longitude": 114.330876},
-    {"id":6,"name":"炒田螺","address":"4步/大概10分钟","remark":"利尿、解酒、促进生长、去火","img":"/static/grid/1.png","type":6,"latitude": 30.579369,"longitude": 114.326992}
+    {"id":1,"name":"梅菜扣肉","address":"8步/大概90分钟","remark":"午餐肉、味道好、人气高","img":"/static/datagrid/meicaikourou.jpg","type":1,"latitude": 30.576413,"longitude": 114.339437},
+    {"id":2,"name":"糖醋排骨","address":"3步/大概30分钟","remark":"润肺、养肾","img":"/static/datagrid/tangcupaigu.jpg","type":2,"latitude": 30.579604,"longitude": 114.338552},
+    {"id":3,"name":"香煎茄汁","address":"7步/大概10分钟","remark":"抗衰老、软化血管、防癌","img":"/static/datagrid/xiangjianqiezhi.jpg","type":3,"latitude": 30.573291,"longitude": 114.333172},
+    {"id":4,"name":"佛跳墙","address":"4步/大概数小时","remark":"排毒、降三高、养心、抗衰老、补血、防癌、健脾","img":"/static/datagrid/fotiaoqiang.jpg","type":4,"latitude": 30.575157,"longitude": 114.332303},
+    {"id":5,"name":"白切鸡","address":"11步/大概30分钟","remark":"助消化、骨质疏松","img":"/static/datagrid/baiqieji.jpg","type":5,"latitude": 30.579535,"longitude": 114.330876},
+    {"id":6,"name":"炒田螺","address":"4步/大概10分钟","remark":"利尿、解酒、促进生长、去火","img":"/static/datagrid/chaotianluo.jpg","type":6,"latitude": 30.579369,"longitude": 114.326992}
 ]

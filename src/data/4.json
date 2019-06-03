@@ -1,8 +1,8 @@
 [
-    {"id":1,"name":"红烧狮子头","address":"8步/大概数小时","remark":"缓解溃疡、益肠道、养胃、防治贫血、调经、防止遗尿","img":"/static/grid/1.png","type":1,"latitude": 30.576413,"longitude": 114.339437},
-    {"id":2,"name":"扬州炒饭","address":"12步/大概10分钟","remark":"缓解溃疡、益肠道、养胃、防止痔疮、调经、益气固脱、调经止痛","img":"/static/grid/1.png","type":2,"latitude": 30.579604,"longitude": 114.338552},
-    {"id":3,"name":"炒腰花","address":"4步/大概10分钟","remark":"降压、降血压、降血脂、养心、防中风、养肝、防治贫血、减肥","img":"/static/grid/1.png","type":3,"latitude": 30.573291,"longitude": 114.333172},
-    {"id":4,"name":"红烧狮子头","address":"9步/大概30分钟","remark":"缓解溃疡、益肠道、养胃、防止痔疮、调经，、益气固脱","img":"/static/grid/1.png","type":4,"latitude": 30.575157,"longitude": 114.332303},
-    {"id":5,"name":"红烧栗子","address":"6步/大概30分钟","remark":"抵抗力、养肾、消食","img":"/static/grid/1.png","type":5,"latitude": 30.579535,"longitude": 114.330876},
-    {"id":6,"name":"蒜爆鱼","address":"8步/大概15分钟","remark":"利目、利水、下奶","img":"/static/grid/1.png","type":6,"latitude": 30.579369,"longitude": 114.326992}
+    {"id":1,"name":"红烧狮子头","address":"8步/大概数小时","remark":"缓解溃疡、益肠道、养胃、防治贫血、调经、防止遗尿","img":"/static/datagrid/hongshaoshizitou.jpg","type":1,"latitude": 30.576413,"longitude": 114.339437},
+    {"id":2,"name":"扬州炒饭","address":"12步/大概10分钟","remark":"缓解溃疡、益肠道、养胃、防止痔疮、调经、益气固脱、调经止痛","img":"/static/datagrid/yangzhouchaofan.jpg","type":2,"latitude": 30.579604,"longitude": 114.338552},
+    {"id":3,"name":"炒腰花","address":"4步/大概10分钟","remark":"降压、降血压、降血脂、养心、防中风、养肝、防治贫血、减肥","img":"/static/datagrid/chaoyaohua.jpg","type":3,"latitude": 30.573291,"longitude": 114.333172},
+    {"id":4,"name":"红烧狮子头","address":"9步/大概30分钟","remark":"缓解溃疡、益肠道、养胃、防止痔疮、调经，、益气固脱","img":"/static/datagrid/hongshaoshizitou2.jpg","type":4,"latitude": 30.575157,"longitude": 114.332303},
+    {"id":5,"name":"红烧栗子鸡","address":"6步/大概30分钟","remark":"抵抗力、养肾、消食","img":"/static/datagrid/hongshaoliziji.jpg","type":5,"latitude": 30.579535,"longitude": 114.330876},
+    {"id":6,"name":"蒜爆鱼","address":"8步/大概15分钟","remark":"利目、利水、下奶","img":"/static/datagrid/suanbaoyu.jpg","type":6,"latitude": 30.579369,"longitude": 114.326992}
 ]

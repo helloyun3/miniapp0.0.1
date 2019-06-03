@@ -1,8 +1,8 @@
 [
-    {"id":1,"name":"炖羊肉","address":"6步/大概15分钟","remark":"减肥、排毒、软化血管、补血、护发、降压、健脑、养肾","img":"/static/grid/1.png","type":1,"latitude": 30.576413,"longitude": 114.339437},
-    {"id":2,"name":"黄拔丝苹果","address":"6步/大概30分钟","remark":"润肠、防癌、护肝、养血、减肥瘦身","img":"/static/grid/1.png","type":2,"latitude": 30.579604,"longitude": 114.338552},
-    {"id":3,"name":"凉拌海蜇皮","address":"4步/大概5分钟","remark":"减肥、排毒、抗衰老、软化血管、补血、防癌、健脑","img":"/static/grid/1.png","type":3,"latitude": 30.573291,"longitude": 114.333172},
-    {"id":4,"name":"油焖大虾","address":"12步/大概15分钟","remark":"补钙、降压","img":"/static/grid/1.png","type":4,"latitude": 30.575157,"longitude": 114.332303},
-    {"id":5,"name":"九转大肠","address":"5步/大概15分钟","remark":"排毒","img":"/static/grid/1.png","type":5,"latitude": 30.579535,"longitude": 114.330876},
-    {"id":6,"name":"小炖肉","address":"3步/大概60分钟","remark":"人气高、味道好","img":"/static/grid/1.png","type":6,"latitude": 30.579369,"longitude": 114.326992}
+    {"id":1,"name":"炖羊肉","address":"6步/大概15分钟","remark":"减肥、排毒、软化血管、补血、护发、降压、健脑、养肾","img":"/static/datagrid/dunyangrou.jpg","type":1,"latitude": 30.576413,"longitude": 114.339437},
+    {"id":2,"name":"黄拔丝苹果","address":"6步/大概30分钟","remark":"润肠、防癌、护肝、养血、减肥瘦身","img":"/static/datagrid/huangbasipingguo.jpg","type":2,"latitude": 30.579604,"longitude": 114.338552},
+    {"id":3,"name":"凉拌海蜇皮","address":"4步/大概5分钟","remark":"减肥、排毒、抗衰老、软化血管、补血、防癌、健脑","img":"/static/datagrid/liamngbanhaizhepi.jpg","type":3,"latitude": 30.573291,"longitude": 114.333172},
+    {"id":4,"name":"油焖大虾","address":"12步/大概15分钟","remark":"补钙、降压","img":"/static/datagrid/youmendaxia.jpg","type":4,"latitude": 30.575157,"longitude": 114.332303},
+    {"id":5,"name":"九转大肠","address":"5步/大概15分钟","remark":"排毒","img":"/static/datagrid/jiuzhuandachang.jpg","type":5,"latitude": 30.579535,"longitude": 114.330876},
+    {"id":6,"name":"小炖肉","address":"3步/大概60分钟","remark":"人气高、味道好","img":"/static/datagrid/xiaodunrou.jpg","type":6,"latitude": 30.579369,"longitude": 114.326992}
 ]
