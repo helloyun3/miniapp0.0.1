@@ -1,8 +1,8 @@
 [
-    {"id":1,"name":"鱼香肉丝","address":"8步/大概15分钟","remark":"减肥、排毒、抗衰老、软化血管、补血、防癌、健脑","img":"/static/grid/1.png","type":1,"latitude": 30.576413,"longitude": 114.339437},
-    {"id":2,"name":"水煮肉片","address":"14步/大概30分钟","remark":"抵抗力、解渴利尿、润肠通便、消食","img":"/static/grid/1.png","type":2,"latitude": 30.579604,"longitude": 114.338552},
-    {"id":3,"name":"蚂蚁上树","address":"7步/大概15分钟","remark":"简便易做","img":"/static/grid/1.png","type":3,"latitude": 30.573291,"longitude": 114.333172},
-    {"id":4,"name":"酸菜鱼","address":"10步/大概30分钟","remark":"开胃、防癌、活血","img":"/static/grid/1.png","type":4,"latitude": 30.575157,"longitude": 114.332303},
-    {"id":5,"name":"麻婆豆腐","address":"10步/大概15分钟","remark":"抗衰老、补血、强身健体","img":"/static/grid/1.png","type":5,"latitude": 30.579535,"longitude": 114.330876},
-    {"id":6,"name":"回锅肉","address":"9步/大概15分钟","remark":"防癌、强身健体、养血","img":"/static/grid/1.png","type":6,"latitude": 30.579369,"longitude": 114.326992}
+    {"id":1,"name":"鱼香肉丝","address":"8步/大概15分钟","remark":"减肥、排毒、抗衰老、软化血管、补血、防癌、健脑","img":"/static/datagrid/yuxiangroushi.jpg","type":1,"latitude": 30.576413,"longitude": 114.339437},
+    {"id":2,"name":"水煮肉片","address":"14步/大概30分钟","remark":"抵抗力、解渴利尿、润肠通便、消食","img":"/static/datagrid/suizhuroupian.jpg","type":2,"latitude": 30.579604,"longitude": 114.338552},
+    {"id":3,"name":"蚂蚁上树","address":"7步/大概15分钟","remark":"简便易做","img":"/static/datagrid/mayishangshu.jpg","type":3,"latitude": 30.573291,"longitude": 114.333172},
+    {"id":4,"name":"酸菜鱼","address":"10步/大概30分钟","remark":"开胃、防癌、活血","img":"/static/datagrid/shuancaiyu.jpg","type":4,"latitude": 30.575157,"longitude": 114.332303},
+    {"id":5,"name":"麻婆豆腐","address":"10步/大概15分钟","remark":"抗衰老、补血、强身健体","img":"/static/datagrid/mapodoufu.jpg","type":5,"latitude": 30.579535,"longitude": 114.330876},
+    {"id":6,"name":"回锅肉","address":"9步/大概15分钟","remark":"防癌、强身健体、养血","img":"/static/datagrid/huiguorou.jpg","type":6,"latitude": 30.579369,"longitude": 114.326992}
 ]

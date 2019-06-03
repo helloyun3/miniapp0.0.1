@@ -42,7 +42,7 @@
 <i-panel title="最近更新">
 <view class="top-padding">
 <view v-for="item in shops" :key='item' class="top-padding">
-<i-card :title="item.name" :extra="item.sce" thumb="cloud://edux-3d5095.6564-edux-3d5095/店铺 (1).png">
+<i-card :title="item.name" :extra="item.sce" :thumb="item.image">
 <view slot="content">{{item.introduction}}</view>
 <view slot="footer">{{item.address}}</view>
 </i-card>
