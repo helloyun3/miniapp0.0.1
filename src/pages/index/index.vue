@@ -13,29 +13,11 @@
 </i-grid>
 <i-grid i-class="no-border">
 <i-row>
-<i-grid-item i-class="no-border">
+<i-grid-item @click="goList(item.url)" i-class="no-border" v-for="item in grids2" :key="item">
 <i-grid-icon>
-<image src="/static/grid/5.png" />
+<image :src="item.img"/>
 </i-grid-icon>
-<i-grid-label>浙菜</i-grid-label>
-</i-grid-item>
-<i-grid-item i-class="no-border">
-<i-grid-icon>
-<image src="/static/grid/6.png" />
-</i-grid-icon>
-<i-grid-label>闽菜</i-grid-label>
-</i-grid-item>
-<i-grid-item i-class="no-border">
-<i-grid-icon>
-<image src="/static/grid/7.png" />
-</i-grid-icon>
-<i-grid-label>徽菜</i-grid-label>
-</i-grid-item>
-<i-grid-item i-class="no-border">
-<i-grid-icon>
-<image src="/static/grid/8.png" />
-</i-grid-icon>
-<i-grid-label>湘菜</i-grid-label>
+<i-grid-label>{{item.type}}</i-grid-label>
 </i-grid-item>
 </i-row>
 </i-grid>
@@ -63,6 +45,12 @@ grids:[//鲁菜,苏菜
 {type:'粤菜',img:'/static/grid/2.png',"url":'../list/main?type=2'},
 {type:'鲁菜',img:'/static/grid/3.png',"url":'../list/main?type=3'},
 {type:'苏菜',img:'/static/grid/4.png',"url":'../list/main?type=4'},
+],
+grids2:[
+{type:'浙菜',img:'/static/grid/5.png',"url":'../list/main?type=5'},
+{type:'闽菜',img:'/static/grid/6.png',"url":'../list/main?type=6'},
+{type:'徽菜',img:'/static/grid/7.png',"url":'../list/main?type=7'},
+{type:'湘菜',img:'/static/grid/8.png',"url":'../list/main?type=8'},
 ],
 shops:[],
 motto: 'Hello miniprograme',

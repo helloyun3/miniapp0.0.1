@@ -1,0 +1,8 @@
+[
+    {"id":1,"name":"清炒虾仁","address":"18步/大概15分钟","remark":"减肥、排毒、降糖、抗衰老、软化血管、防癌、健脑、养肝","img":"/static/datagrid/qingchaoxiaren.jpg","type":1,"latitude": 30.576413,"longitude": 114.339437},
+    {"id":2,"name":"清炒芦笋","address":"4步/大概5分钟","remark":"防癌、健脑、利尿","img":"/static/datagrid/qinghcaolusun.jpg","type":2,"latitude": 30.579604,"longitude": 114.338552},
+    {"id":3,"name":"清炖全鸡","address":"2步/大概数小时","remark":"助消化","img":"/static/datagrid/qingzhenquanji.jpg","type":3,"latitude": 30.573291,"longitude": 114.333172},
+    {"id":4,"name":"清蒸带鱼","address":"3步/大概15分钟","remark":"利尿消食、防癌、健脑","img":"/static/datagrid/qingzhengdaiyu.jpg","type":4,"latitude": 30.575157,"longitude": 114.332303},
+    {"id":5,"name":"清蒸龙虾","address":"4步/大概30分钟","remark":"排毒、开胃、抗衰老、活血、消炎、预防中暑、抗感冒","img":"/static/datagrid/qingzhenglongxia.jpg","type":5,"latitude": 30.579535,"longitude": 114.330876},
+    {"id":6,"name":"红烧五花肉","address":"2步/大概30分钟","remark":"酱红鲜亮、酥嫩味美","img":"/static/datagrid/hongshaowuhuarou.jpg","type":6,"latitude": 30.579369,"longitude": 114.326992}
+]

@@ -1,0 +1,8 @@
+[
+    {"id":1,"name":"红烧鲍鱼","address":"5步/大概10分钟","remark":"活血、强生健体、促进发育","img":"/static/datagrid/hongshaobaoyu.jpg","type":1,"latitude": 30.576413,"longitude": 114.339437},
+    {"id":2,"name":"东坡肉","address":"14步/大概2小时","remark":"软化血管、补钙、补血、防癌、健脑、降胆固醇、养肝、促发育","img":"/static/datagrid/dongporou.jpg","type":2,"latitude": 30.579604,"longitude": 114.338552},
+    {"id":3,"name":"水晶南瓜","address":"3步/大概15分钟","remark":"利尿消食、美容、养心、降糖、润肠、养胃、防癌、消炎","img":"/static/datagrid/shuijingnangua.jpg","type":3,"latitude": 30.573291,"longitude": 114.333172},
+    {"id":4,"name":"金华火腿","address":"5步/大概10分钟","remark":"缓解痛风、润肠、养胃、消食、防癌、强身健体、消炎、助消化","img":"/static/datagrid/jinhuahuotui.jpg","type":4,"latitude": 30.575157,"longitude": 114.332303},
+    {"id":5,"name":"椒麻鸡","address":"5步/大概15分钟","remark":"肉质细嫩、滋味鲜美、温中益气、补虚填精、健脾胃、活血脉、强筋骨","img":"/static/datagrid/jiaomaji.jpg","type":5,"latitude": 30.579535,"longitude": 114.330876},
+    {"id":6,"name":"叫花鸡","address":"25步/大概90分钟","remark":"降血脂、抗衰老、消食、防癌、降胆固醇、强身健体、养肾","img":"/static/datagrid/jioahuaji.jpg","type":6,"latitude": 30.579369,"longitude": 114.326992}
+]

@@ -1,0 +1,8 @@
+[
+    {"id":1,"name":"剁椒鱼头","address":"10步/大概15分钟","remark":"降糖、养胃、防癌、养血、美容护肤","img":"/static/datagrid/duojiaoyutou.jpg","type":1,"latitude": 30.576413,"longitude": 114.339437},
+    {"id":2,"name":"小炒肉","address":"6步/大概15分钟","remark":"防中风、清热去火、散瘀止痛、防癌抗癌、消食、开胃、减肥","img":"/static/datagrid/xiaochaorou.jpg","type":2,"latitude": 30.579604,"longitude": 114.338552},
+    {"id":3,"name":"干锅花菜","address":"5步/大概15分钟","remark":"软化血管、补血、防癌、养肝","img":"/static/datagrid/ganguohuacai.jpg","type":3,"latitude": 30.573291,"longitude": 114.333172},
+    {"id":4,"name":"辣椒炒肉","address":"3步/大概15分钟","remark":"缓解溃疡、益肠道、养胃、防止痔疮、调经，、益气固脱","img":"/static/datagrid/lajiaochaorou.jpg","type":4,"latitude": 30.575157,"longitude": 114.332303},
+    {"id":5,"name":"湘西土匪鸭","address":"9步/大概90分钟","remark":"明目、降糖、助消化","img":"/static/datagrid/xiangxitufeiya.jpg","type":5,"latitude": 30.579535,"longitude": 114.330876},
+    {"id":6,"name":"软炸里脊","address":"6步/大概10分钟","remark":"抗衰老、软化血管、补血、防癌、健脑、养肝、促发育、美容护肤","img":"/static/datagrid/ruanzhaliji.jpg","type":6,"latitude": 30.579369,"longitude": 114.326992}
+]

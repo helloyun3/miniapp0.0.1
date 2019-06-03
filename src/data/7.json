@@ -1,0 +1,8 @@
+[
+    {"id":1,"name":"炒米粉","address":"6步/大概10分钟","remark":"安神、补钙、补血、健脑、养血、下奶、促发育","img":"/static/datagrid/chaomifen.jpg","type":1,"latitude": 30.576413,"longitude": 114.339437},
+    {"id":2,"name":"糖醋烧豆腐","address":"3步/大概10分钟","remark":"美容、明目、清热去火、降糖、抗衰老、软化血管、润肺、消食","img":"/static/datagrid/tangchushaodoufu.jpg","type":2,"latitude": 30.579604,"longitude": 114.338552},
+    {"id":3,"name":"姜母鸭","address":"3步/大概40分钟","remark":"强身健体、美容护肤","img":"/static/datagrid/jiangmuya.jpg","type":3,"latitude": 30.573291,"longitude": 114.333172},
+    {"id":4,"name":"蜜汁排骨","address":"7步/大概30分钟","remark":"润肺、养胃","img":"/static/datagrid/mizhipaigu.jpg","type":4,"latitude": 30.575157,"longitude": 114.332303},
+    {"id":5,"name":"发糕","address":"6步/大概15分钟","remark":"抵抗力、养肾、消食","img":"/static/datagrid/fagao.jpg","type":5,"latitude": 30.579535,"longitude": 114.330876},
+    {"id":6,"name":"韭菜水饺","address":"5步/大概10分钟","remark":"润肠、安神、补钙、养肝、养血、下奶","img":"/static/datagrid/jiucaishuijiao.jpg","type":6,"latitude": 30.579369,"longitude": 114.326992}
+]
