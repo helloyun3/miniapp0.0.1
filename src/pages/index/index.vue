@@ -1,8 +1,21 @@
 <template>
-<div @click="clickHandle">
+<div>
 <i-notice-bar icon="systemprompt" loop>
 今日菜谱!
 </i-notice-bar>
+<swiper
+      :indicator-dots="indicatorDots"
+      :autoplay="autoplay"
+      :interval="interval"
+      :duration="duration"
+      style="height:200px"
+    >
+    <block v-for="item in imgUrls" :key="item">
+      <swiper-item>
+        <image :src="item" style="width:100%;"/>
+      </swiper-item>
+     </block>
+  </swiper>
 <i-grid i-class="no-border">
 <i-grid-item @click="goList(item.url)" i-class="no-border" v-for="item in grids" :key="item">
 <i-grid-icon>
@@ -40,6 +53,16 @@ import card from '@/components/card'
 export default {
 data () {
 return {
+imgUrls: [
+    'cloud://edux-3d5095.6564-edux-3d5095/31b43a5ef55aa3dc3340086bb66e1660.jpg',
+    'cloud://edux-3d5095.6564-edux-3d5095/ad2077486d232252c83aa611c14bb273.jpg',
+    'cloud://edux-3d5095.6564-edux-3d5095/f090ea297104d84d79e45d59ce4e5f43.jpg',
+    'cloud://edux-3d5095.6564-edux-3d5095/571755fb2f12dd590ad8c1ad331ce72e.jpg'
+    ],
+    indicatorDots: true,
+      autoplay: true,
+      interval: 5000,
+      duration: 1000,
 grids:[//鲁菜,苏菜
 {type:'川菜',img:'/static/grid/1.png',"url":'../list/main?type=1'},
 {type:'粤菜',img:'/static/grid/2.png',"url":'../list/main?type=2'},
