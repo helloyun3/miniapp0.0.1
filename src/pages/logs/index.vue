@@ -2,8 +2,8 @@
   <div>
     <map
   id="map"
-  longitude="113.324520"
-  latitude="23.099994"
+  longitude="114.32957231998445"
+  latitude="30.581414789217394"
   scale="14"
   :controls="controls"
   @controltap="controltap"
